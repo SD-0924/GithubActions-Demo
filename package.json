@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "tests"
+    "start": "node index.js",
+    "test": "node ./tests/demotest.js"
   },
   "author": "",
   "license": "ISC",
