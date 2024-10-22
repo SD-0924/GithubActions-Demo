@@ -1,4 +1,5 @@
 const http = require("http");
+let notUsed = 5;
 
 const host = "localhost";
 const port = 8000;
@@ -14,5 +15,3 @@ const server = http.createServer(requestListener);
 server.listen(port, host, () => {
   console.log(`Server is running on http://${host}:${port}`);
 });
-
-let notUsed = 5;
