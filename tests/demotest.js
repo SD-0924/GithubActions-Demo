@@ -1,3 +1,2 @@
 console.log("passed the tests");
-
-// throw new Error("This is a custom error message");
+throw new Error("This is a custom error message");
